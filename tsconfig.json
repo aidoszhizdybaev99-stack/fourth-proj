@@ -1,0 +1,26 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // Environment Settings
+    "module": "commonjs",
+    "target": "es2022",
+    "lib": ["es2022", "dom"],
+    "types": [],
+    "esModuleInterop": true,
+
+    // Каждый файл считается отдельным модулем, поэтому одинаковые
+    // имена функций (add, greet) в разных уроках не конфликтуют
+    "moduleDetection": "force",
+
+    // Strict Typechecking Options
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Other
+    "skipLibCheck": true
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"]
+}
