@@ -8,6 +8,12 @@
     "start": "tsx",
     "dev": "tsx watch",
     "check": "tsc --noEmit",
+    "1": "tsx src/1-functions.ts",
+    "2": "tsx src/2-errors.ts",
+    "3": "tsx src/3-interface.ts",
+    "dev:1": "tsx watch src/1-functions.ts",
+    "dev:2": "tsx watch src/2-errors.ts",
+    "dev:3": "tsx watch src/3-interface.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
